@@ -1,0 +1,17 @@
+In this text file I aim to provide all that I have learnt in these labs shortly:
+Written by Mobina Sharafi student number : 33777254
+Lab 1: this lab taught me the fundemental logic behind building a web server using node.js and
+helped with understanding the logic behind it, I learnt to take use of the Visual Studio as a complete
+workspace, we created a basic server and layed the foundational grounding for the work needed in the 
+following labs.
+
+Lab 2: this lab taught me how to take record of my coding progress and how to represent it to my professor
+and gave me clarity on how my workflow will be monitized. I learnt how to stage, commit and push changes to GitHub
+I faced issues with my website which made me make a mistake of changing my port to 5000, and then 3000, but the issue
+I was facing and the solution I found only worsened my process later by preventing the gold server to go through since 
+it only responds on port 8000, the mistake which has been recorded in my GitHub. I did experimentation with the design of 
+my website and made this process feel less like an administrative task.
+
+Lab 3: this lab contained connecting to a virtual machine via SSH, using Git pulls and Running the app indefinitely with 
+forever command, it made me aware of the technical difficulty of making a mistake in the earlier processes of coding, and overall
+functioned as an extension to my understanding and persistence with getting my work done right.

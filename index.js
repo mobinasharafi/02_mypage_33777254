@@ -3,7 +3,7 @@
 
 
 const http = require("http");
-const port = 5000; // changed the port to 3000 because the web page wasn't responding and this is what AI suggested
+const port = 3000; // change finalized, port number to 3000
 
 http.createServer((req, res) => {
   try {
@@ -22,27 +22,34 @@ http.createServer((req, res) => {
               text-align: center;
               margin-top: 60px;
               color: #060606ff;
-              background-color: #e0d7d7ff;
+              background-color: #e8e4e4ff;
             }
             h1 {
-              color: #1c1620ff;
+              color: #18131bff;
               font-size: 36px;
               margin-bottom: 10px;
             }
             h2 {
               font-weight: normal;
-              color: #302f2fff;
+              color: #030202ff;
               margin-top: 0;
               margin-bottom: 25px;
             }
-            p {
+            h3 {
+             font-size: 18px;
+             color: #444;
+             font-weight: normal;
+             margin-top: 30px;
+             }
+  
+             p {
               font-size: 18px;
               margin: 10px 0;
             }
             .quote {
-              font-family: "Georgia", "Times New Roman", serif;
+              font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
               font-size: 20px;
-              color: #35263eff;
+              color: #18131bff;
               margin-top: 25px;
               font-style: italic;
             }
@@ -53,6 +60,8 @@ http.createServer((req, res) => {
           <h2>Dynamic Web Applications Labs</h2>
           <p>My first web app built with Node.js.</p>
           <p><b>Today's Date:</b> ${today}</p>
+          <p><b>Website Last updated:</b> October 24th, 2025, 9:13 AM</p>
+          <h3>Quote of the Day:</h3>
           <p class="quote">${quote}</p>
         </body>
       </html>
